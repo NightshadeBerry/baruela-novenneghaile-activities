@@ -1,0 +1,163 @@
+.dashboard {
+    background-color: rgb(237, 193, 255);
+    width: auto;
+    height: 15%;
+    font-family: cursive;
+    color: #360945;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.ul {
+    list-style: none;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.ul .li {
+    display: inline-block;
+}
+
+.radio {
+    display: none;
+}
+
+.svg {
+    width: 70px;
+    height: 70px;
+    opacity: 80%;
+    cursor: pointer;
+    padding: 13px 20px;
+    transition: 0.2s;
+}
+
+.ul .li .svg:hover {
+    transition: 0.1s;
+    color: rgb(174, 34, 255);
+    position: relative;
+    margin-top: -4px;
+    opacity: 100%;
+}
+
+.radio:checked + label .li .svg {
+    color: rgb(67, 10, 100);
+    fill-rule: evenodd;
+}
+
+#navbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#navbody form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#navbody label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbody label span {
+    font-size: 14px; /* Adjust as needed */
+    margin-top: 5px; /* Adjust as needed */
+}
+#navbody {
+    background-image: url('images/galleryBG.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.041);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbody ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbody ul li {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.quote {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.info p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}

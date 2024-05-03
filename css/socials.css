@@ -1,0 +1,335 @@
+.dashboard {
+    background-color: rgb(237, 193, 255);
+    width: auto;
+    height: 15%;
+    font-family: cursive;
+    color: #360945;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.ul {
+    list-style: none;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.ul .li {
+    display: inline-block;
+}
+
+.radio {
+    display: none;
+}
+
+.svg {
+    width: 70px;
+    height: 70px;
+    opacity: 80%;
+    cursor: pointer;
+    padding: 13px 20px;
+    transition: 0.2s;
+}
+
+.ul .li .svg:hover {
+    transition: 0.1s;
+    color: rgb(174, 34, 255);
+    position: relative;
+    margin-top: -4px;
+    opacity: 100%;
+}
+
+.radio:checked + label .li .svg {
+    color: rgb(67, 10, 100);
+    fill-rule: evenodd;
+}
+
+#navbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#navbody form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#navbody label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbody label span {
+    font-size: 14px; /* Adjust as needed */
+    margin-top: 5px; /* Adjust as needed */
+}
+#navbody {
+    background-image: url('images/galleryBG.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.041);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbody ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbody ul li {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.quote {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.info p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+  .tooltip-container {
+    color: #000000;
+    --background: #f56cff;
+    position: relative;
+    background: var(--background);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 0.7em 1.8em;
+    border-radius: 50px;
+  }
+  
+  .tooltip {
+    background-color: #f56cff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.3em 0.6em;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    border-radius: 50px;
+  }
+  
+  .tooltip::before {
+    background-color: #f189ff;
+    position: absolute;
+    content: "";
+    height: 0.6em;
+    width: 0.6em;
+    bottom: -0.2em;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+  }
+  
+  .tooltip-container:hover .tooltip {
+    top: -100%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  

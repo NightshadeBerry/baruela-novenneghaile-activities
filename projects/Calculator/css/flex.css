@@ -1,0 +1,21 @@
+.flex-container{
+    display:flex;
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-wrap: wrap-reverse;*/
+    flex-wrap: wrap;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-between;*/
+    background-color: #B784B7;
+}
+.flex-container>div {
+    display:flex;
+    background-color: #E493B3;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

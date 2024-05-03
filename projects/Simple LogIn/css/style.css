@@ -1,0 +1,137 @@
+        button{
+            padding:5px;
+            color:rgb(102, 12, 102);
+            background-color:rgb(228, 228, 122);
+            border-radius: 10px;
+        }
+
+        button:link{
+            color:darkmagenta;
+            background-color:rgb(228, 228, 122);
+            border-radius: 10px;
+              }
+
+        button:hover{
+            font-size: 25px;
+            color:rgb(228, 228, 122);
+            background-color:rgb(102, 12, 102);
+            border-radius: 10px;
+          }
+
+        button:active{
+            background-color:rgb(102, 12, 102);
+            color:rgb(97, 219, 228);
+            border-radius: 10px;
+        }
+
+        #error{
+            background-color:rgb(98, 0, 125);
+            font-size: 20px;
+            color:rgb(219, 56, 56);
+            border-radius: 10px;
+        }
+
+        #username{
+            background-color: orchid;
+            border-radius: 10px;
+        }
+
+        #password{
+            background-color: orchid;
+            border-radius: 10px;
+        }
+
+        .userLabel{
+            background-color:rgb(102, 12, 102);
+            font-size: 20px;
+            color:rgb(228, 228, 122);
+            border-radius: 5px;
+        }
+
+        .passLabel{
+            background-color:rgb(102, 12, 102);
+            font-size: 20px;
+            color:rgb(228, 228, 122);
+            border-radius: 5px;
+        }
+
+        #gender{
+            background-color: orchid;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        #name{
+            background-color: orchid;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        #M{
+            background-color: orchid;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        
+        .card {
+            flex: content;
+            background-image: url('galleryBG.jpg');
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .card-header { 
+            font-size: 27px;
+            color:rgb(102, 12, 102);
+        }
+
+        .forgot:link {
+            font-size:15px;
+            color:rgb(102, 12, 102);
+            font-style: none;
+            border-radius: 10px;
+        }
+
+        .forgot:hover{
+            font-size: 25px;
+            color:rgb(228, 228, 122);
+            background-color:rgb(102, 12, 102);
+            border-radius: 10px;
+        }
+
+        .forgot:visited {    
+            color:rgb(241, 243, 127);
+            border-radius: 10px;
+        }
+
+        .forgot:active{
+            color:powderblue;
+            border-radius: 10px;
+        }
+
+        .register:link {
+            font-size:15px;
+            color:rgb(102, 12, 102);
+            font-style: none;
+            border-radius: 10px;
+        }
+
+        .register:hover{
+            font-size: 25px;
+            color:rgb(228, 228, 122);
+            background-color:rgb(102, 12, 102);
+            border-radius: 10px;
+        }
+
+        .register:visited {    
+            color:rgb(241, 243, 127);
+            border-radius: 10px;
+        }
+
+        .register:active{
+            color:powderblue;
+            border-radius: 10px;
+        }

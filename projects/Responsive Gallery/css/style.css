@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.gallery img {
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.title{
+    font-family: cursive;
+    font-size: medium;
+    color: azure;
+
+}
+
+/* Media Queries for Responsive Design */
+
+/* Extra Small (xs) devices (portrait phones) */
+@media only screen and (max-width: 575px) {
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Small (sm) devices (landscape phones) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Medium (md) devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Large (lg) devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Extra Large (xl) devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

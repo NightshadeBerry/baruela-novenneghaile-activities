@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/numbers.js"></script>
+    <script src="js/operation.js"></script>
+</head>
+
+<body>
+    <div class="pre-container">
+    <div class="container">
+        <div class="post-container">
+            <h1 class="label">Simple Calculator</h1>
+        </div>
+
+            <div class="post-container">
+
+            <input id="number-input" type="text" value="0" readonly>
+        </div>
+        <div class="post-container">
+
+            <input id="operation-input" type="text">
+        </div>
+        <div class="post-container">
+
+            <input id="previous" type="text" value="0">
+        </div>
+        
+        <div class="post-container">
+
+            <button class="tile" onclick="number(1)"> 1 </button>
+            <button class="tile" onclick="number(2)"> 2 </button>
+            <button class="tile" onclick="number(3)"> 3 </button>
+        </div>
+        <div class="post-container">
+
+            <button class="tile" onclick="number(4)"> 4 </button>
+            <button class="tile" onclick="number(5)"> 5 </button>
+            <button class="tile" onclick="number(6)"> 6 </button>
+        </div>
+        <div class="post-container">
+            <button class="tile" onclick="number(7)"> 7 </button>
+            <button class="tile" onclick="number(8)"> 8 </button>
+            <button class="tile" onclick="number(9)"> 9 </button>
+        </div>
+        <div class="post-container">
+            <button class="tile" onclick="number(0)"> 0 </button>
+        </div>
+        <div class="post-container">
+            <button class="tile" onclick="operation('+')"> + </button>
+            <button class="tile" onclick="operation('-')"> - </button>
+            <button class="tile" onclick="operation('*')"> * </button>
+        </div>
+        <div class="post-container">
+            <button class="tile" onclick="operation('/')"> / </button>
+            <button class="tile" onclick="equal('=')"> = </button>
+            <button class="tile" onclick="clearInput()"> C </button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

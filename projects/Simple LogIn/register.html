@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/register.js"></script>
+
+</head>
+    <body>
+        <div class="card">
+        <div class="card-header">Register Form</div>
+        <br>
+        <p id="error"></p>
+        <label class="userLabel">Username:</label>
+        <input type="text" id="username">
+
+        <br>
+        <br>
+
+        <label class="userLabel">Name:</label>
+        <input type="text" id="name">
+
+        <br>
+        <br>
+
+        <label class="userLabel">Gender:</label>
+            <select id="gender">
+                <option value="option1" id="M">Male</option>
+                <option value="option2" id="M">Female</option>
+                <option value="option3" id="M">Others</option>
+            </select>
+
+        <br>
+        <br>
+
+        <label class="passLabel">Password:</label>
+        <input type="text" id="password">
+
+        <br>
+        <br>
+         
+        <button type ="button" onclick="register()">REGISTER</button>
+        <br>
+        <br>
+        <a class="register" onclick="registered()">Already Registered?</a>
+    </div>
+    </body>
+</html>
